@@ -1,0 +1,21 @@
+body
+{
+	text-align: center;
+	background-color: lightyellow;
+
+}
+h1
+{
+	font-family: Comic Sans MS ;
+	padding-top: 20px;
+}
+p
+{
+	text-align: justify;
+	color: darkblue;
+	font-family: Arial;
+}
+h2:hover
+{
+	background-color: lightcyan;
+}

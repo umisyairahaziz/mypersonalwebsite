@@ -1,0 +1,16 @@
+body
+{
+	text-align: center;
+	background-image: url(images/background_3.jpg);
+}
+h1
+{
+	font-family: Comic Sans MS ;
+}
+video
+{
+	height: 200px;
+	border: 2px solid orangered;
+	margin: 2px;
+	padding: 1px;
+}	

@@ -1,0 +1,36 @@
+
+body
+{
+	text-align: center;
+	background-image: url(images/background_2.jpg);
+}
+h1
+{
+	font-family: Comic Sans MS ;
+	padding-top: 20px;
+}
+table, tr, th, td
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-block: 2px solid plum;
+	border-collapse: collapse;
+}
+.container
+{
+	border-radius: 20px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.container img
+{
+	filter: grayscale(0%);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.container img:hover
+{
+	transform: scale(1.1);
+	filter: grayscale(0%);
+	background-color: silver;
+}

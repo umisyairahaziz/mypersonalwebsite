@@ -1,0 +1,27 @@
+body
+{
+	text-align: center;
+	background-color: mistyrose;
+}
+h1
+{
+	font-family: Comic Sans MS ;
+}
+.container
+{
+	border-radius: 20px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.container img
+{
+	filter: grayscale(0%);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.container img:hover
+{
+	transform: scale(1.1);
+	filter: grayscale(0%);
+}
+

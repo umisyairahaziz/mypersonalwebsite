@@ -1,0 +1,84 @@
+body
+{
+	text-align: center;
+	background-color: lightsteelblue;
+
+}
+h1
+{
+	font-family: Comic Sans MS ;
+	padding-top: 20px;
+}
+
+table, tr, th, td
+{
+	border: 2px solid powderblue;
+	border-collapse: collapse;
+	
+}
+.center
+{
+  	margin-left: auto;
+  	margin-right: auto;
+}
+td
+{
+	text-align: center;
+	color: black;
+	background-color: beige;
+}
+th
+{
+	color: darkblue;
+	background-color: lightcoral;
+	font-family: Times New Roman;
+}
+td:hover
+{
+	background-color: orchid;
+	font-family: Georgia;
+}
+th:hover
+{
+	background-color: orange;
+	font-family: Georgia;
+}
+dd
+{
+	text-align: left;
+}
+dt
+{
+	font-family: Arial;
+}
+::marker
+{
+	color: darkmagenta;
+}
+.container
+{
+	text-align: center;
+}
+ol.myol
+{
+	display: inline-block;
+	text-align: left;
+}
+.wrapper
+{
+	border-radius: 20px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.wrapper img
+{
+	filter: grayscale(0%);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.wrapper img:hover
+{
+	transform: scale(1.1);
+	filter: grayscale(0%);
+	background-color: ghostwhite;
+}
